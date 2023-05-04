@@ -1,15 +1,19 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Double12Dashboard/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Double12Dashboard from './components/Double12Dashboard.vue'
+import * as echarts from 'echarts'
+import { provide } from 'vue'
 
 export default {
   name: 'App',
+  setup(){
+    provide('ec',echarts)//provide
+  },
   components: {
-    HelloWorld
+    Double12Dashboard
   }
 }
 </script>
