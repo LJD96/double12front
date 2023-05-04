@@ -1,5 +1,7 @@
 # double12front
 
+淘宝双12数据分析前端部分
+
 ## Project setup
 ```
 yarn install
@@ -22,3 +24,5 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
